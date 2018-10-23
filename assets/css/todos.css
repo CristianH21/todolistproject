@@ -1,8 +1,14 @@
 :root{
   --blue:#448aff;
   --purple:#d500f9;
+  --gray:#acb3c2;
 }
 
 body{
   background-color: var(--blue);
+}
+
+.completed{
+  color: var(--gray);
+  text-decoration: line-through;
 }

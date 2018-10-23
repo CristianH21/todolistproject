@@ -3,16 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Todo List Project</title>
+    <link rel="stylesheet" href="/assets/css/lib/spectre/spectre.css">
     <link rel="stylesheet" href="/assets/css/todos.css">
     <script type="text/javascript" src="/assets/js/lib/jquery-3.3.1.min.js"></script>
   </head>
   <body>
-    <ul>
-      <li>Eat breakfest</li>
-      <li>Go to work</li>
-      <li>Drink Coffe</li>
-      <li>Work</li>
-    </ul>
+    <div class="container">
+      <div class="column col-4 col-mx-auto">
+        <div class="panel bg-gray">
+          <div class="panel-header">
+            <div class="panel-title">ToDo List</div>
+          </div>
+          <div class="panel-nav">
+            <input type="text" name="" placeholder="Enter text">
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li><span>x</span> Eat breakfest</li>
+              <li><span>x</span> Go to work</li>
+              <li><span>x</span> Drink Coffe</li>
+              <li><span>x</span> Work</li>
+            </ul>
+          </div>
+          <div class="panel-footer">
+            <!-- buttons or inputs -->
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" src="/assets/js/todos.js"></script>
   </body>
 </html>
